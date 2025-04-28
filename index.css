@@ -144,10 +144,32 @@ margin-top: 50px;
   }
 
   .p-two {
-    font-size: 45px;
+    font-size: 18addpx;
+    margin: 0px 40px 0px 40px;
+  }
+
+  .p-one {
+    font-size: 40px;
   }
 
   .login {
     display: none;
   }
+
+  .left-side {
+    margin-left: 20px;
+
+  }
+
+  .sign-in {
+    margin-right: 150px;
+  }
+
+  .start-button {
+     font-weight: 500;
+     border-radius: 23px;
+     padding: 18px 18px 18px 18px;
+
+  }
+
 }
