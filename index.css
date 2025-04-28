@@ -97,10 +97,10 @@ margin-top: 50px;
   font-family: rubik;
   font-size: bolder;
   font-weight: 700;
-  line-height: 1.13;
+  line-height: 1.15;
   margin-bottom: 10px;
   margin-top: 0px;
-  font-size: 60px;
+  font-size: 63px;
 }
 
 .p-two {
@@ -108,12 +108,12 @@ margin-top: 50px;
   font-family: rubik;
   text-align: center;
   font-size: large;
-  margin-top: 0px;
+  margin-top: 5px;
 }
 
 .start-button {
   border-radius: 20px;
-  padding: 20px 25px 20px 25px;
+  padding: 18px 23px 18px 23px;
   color: #000;
   font-family: rubik;
   line-height: 1px;
@@ -136,4 +136,8 @@ margin-top: 50px;
   font-weight: lighter;
   font-size: 11px;
   margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+  
 }
