@@ -56,9 +56,9 @@ nav {
 .sign-in {
   height: 40px;
   border-radius: 15px;
-  background-color: rgba(112, 112, 241, 0.753);
+  background-color: #00baff;
   color: white;
-  border: blue;
+  border:2px solid #00a2ff;
   font-family: rubik;
   font-weight: bold;
   padding: 0px 10px 0px 10px;
@@ -66,9 +66,9 @@ nav {
 
 .sign-in:hover {
   cursor: pointer;
-  border: 2px solid rgba(112, 112, 241, 0.753);
+  border: 2px solid #00baff;
   background-color: white;
-  color: rgba(112, 112, 241, 0.753);
+  color: #00baff;
 }
 
 .main-section {
@@ -139,5 +139,15 @@ margin-top: 50px;
 }
 
 @media (max-width: 600px) {
-  
+  .left-side button {
+    display: none;
+  }
+
+  .p-two {
+    font-size: 45px;
+  }
+
+  .login {
+    display: none;
+  }
 }
