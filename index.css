@@ -1,0 +1,139 @@
+body {
+   font-family: var(--rubik); 
+  background-color: #f6f8fa;
+}
+nav {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.left-side {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0px 0px 0px 50px;
+  cursor: pointer;
+}
+
+.left-side button {
+  margin-left: 25px;
+  border: none;
+  font-weight: bold;
+  font-family: roboto;
+  background-color: transparent;
+  font-size: 17px;
+  cursor: pointer;
+  color: rgba(17, 17, 17, 0.89);
+}
+
+.left-side button:hover {
+  color: blue;
+}
+
+.right-side {
+  display: flex;
+  gap: 15px;
+  margin-right: 50px;
+}
+
+.login {
+  height: 40px;
+  border-radius: 15px;
+  width: 70px;
+  border: 2px solid gainsboro;
+  background-color: transparent;
+}
+
+.login:hover {
+  color: blue;
+  cursor: pointer;
+  border: 2px solid blue;
+}
+
+.sign-in {
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgba(112, 112, 241, 0.753);
+  color: white;
+  border: blue;
+  font-family: rubik;
+  font-weight: bold;
+  padding: 0px 10px 0px 10px;
+}
+
+.sign-in:hover {
+  cursor: pointer;
+  border: 2px solid rgba(112, 112, 241, 0.753);
+  background-color: white;
+  color: rgba(112, 112, 241, 0.753);
+}
+
+.main-section {
+align-items: center;
+justify-content: space-between;
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+
+}
+
+.first-header {
+  font-family: rubik;
+  color: #717171;
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+  margin-bottom: 7px;
+}
+
+.p-one {
+  color: #000;
+  text-align: center;
+  font-family: rubik;
+  font-size: bolder;
+  font-weight: 700;
+  line-height: 1.13;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-size: 60px;
+}
+
+.p-two {
+  color: #000;
+  font-family: rubik;
+  text-align: center;
+  font-size: large;
+  margin-top: 0px;
+}
+
+.start-button {
+  border-radius: 20px;
+  padding: 20px 25px 20px 25px;
+  color: #000;
+  font-family: rubik;
+  line-height: 1px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 30px;
+  background-color: #fbe30c;
+  border: 2px solid #e3d500;
+  cursor: pointer;
+}
+.start-button:hover {
+  transition: 0.2s ease-in-out;
+  border: #2c85d5;
+  background-color: #38a2ff;
+  color: white;
+}
+
+.main-section small {
+  font-family: rubik;
+  font-weight: lighter;
+  font-size: 11px;
+  margin-top: 8px;
+}
