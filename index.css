@@ -191,6 +191,13 @@ margin-top: 50px;
     padding: 0px 10px 0px 10px;
   }
 
+  .mobile-signup:hover {
+    cursor: pointer;
+    border: 2px solid #00baff;
+    background-color: white;
+    color: #00baff;
+  }
+
 
   .p-two {
     font-size: 12px;
